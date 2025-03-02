@@ -8,10 +8,6 @@
         align-items: center;
         justify-content: flex-start;
 
-        .dmcsImg {
-            margin-right: 30px;
-        }
-
         .copyrightTxt {
             p {
                 margin-bottom: 0px;
@@ -23,39 +19,9 @@
     }
 
     .copyrightTxt1 {
-
-        ul {
-            list-style: none;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            padding: 0px;
-            margin: 0px;
-
-            li {
-                margin-left: 20px;
-
-                a {
-                    font-size: 14px;
-                    line-height: normal;
-                    color: rgb(255, 255, 255, 0.6);
-                    border-right: 1px solid rgb(255, 255, 255, 0.6);
-                    transition: .3s linear;
-                    padding-right: 20px;
-
-                    &:hover {
-                        color: #F32FAF;
-                        transition: .3s linear;
-                    }
-                }
-
-                &:last-child {
-                    a {
-                        border-right: 0;
-                    }
-                }
-            }
-        }
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 }
 
@@ -64,10 +30,6 @@
         height: 90px;
 
         .copyrightBox {
-            .dmcsImg {
-                margin-right: 10px;
-            }
-
             .copyrightTxt {
                 p {
                     margin-bottom: 0px;
@@ -99,15 +61,6 @@
         padding: 20px 0px;
 
         .copyrightBox {
-            .dmcsImg {
-                display: none;
-
-                img {
-                    height: 30px;
-                    width: auto;
-                }
-            }
-
             .copyrightTxt {
                 text-align: center;
                 width: 100%;
@@ -120,19 +73,7 @@
         }
 
         .copyrightTxt1 {
-            ul {
-                justify-content: center;
-
-                li {
-                    margin-left: 15px;
-
-                    a {
-                        font-size: 12px;
-                        padding-right: 15px;
-                    }
-
-                }
-            }
+            display: none;
         }
     }
 }
